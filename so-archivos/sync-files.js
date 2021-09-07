@@ -7,7 +7,7 @@ try catch porque es la manera en que podemos capturar un error
 try {
   // leer mi archivo
   // Con process.argv 'argumentos en vector' es poder leer lo que nosotros pasamos por la terminal
-  const file = process.argv[2];
+  const file = process.argv[2]; 
 
   // leer nuestro contenido
   const content = fs.readFileSync(file).toString();
