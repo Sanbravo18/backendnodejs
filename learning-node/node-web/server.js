@@ -1,5 +1,5 @@
 const http = require('http');
-const server = http.createServer();/code
+const server = http.createServer();
 
 // El servidor funciona con eventos
 server.on('request', (request, response) => {
@@ -8,7 +8,7 @@ server.on('request', (request, response) => {
   response.statusCode = '200';
   response.setHeader('Content-Type', 'text-plain');
 
-  response.end('hellow world\n')
+  response.end('hellow world !\n')
 });
 
 server.listen(9000);

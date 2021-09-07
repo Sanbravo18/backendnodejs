@@ -24,7 +24,7 @@ logger.on('finish', () => console.log('Finishing'));
 
 logger.on('finish', () => console.log("It's Done"));
 
-// logger.execute(() => console.log("Hello World"));
+//logger.execute(() => console.log("Hello World"));
 
 /*
 Algo muy importante es que si ejecutamos código asincrono, como un setTimeout,

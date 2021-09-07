@@ -2,7 +2,7 @@ const { Duplex } = require('stream');
 
 const duplexStream = new Duplex({
   write(chunk, encoding, callback) {
-    console.log(chunk.toString());
+    console.log(chunk.toString()); // el chunk llega como tipo buffer y necesitamos pasarlo a string
     callback();
   },
   read(size) {

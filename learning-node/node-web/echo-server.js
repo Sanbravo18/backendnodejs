@@ -1,4 +1,4 @@
-const http = require('http');
+ const http = require('http');
 const server = http.createServer();
 
 // El servidor funciona con eventos
@@ -9,7 +9,7 @@ const server = http.createServer();
 server.on('request', (request, response) => {
   if (request.method === 'POST' && request.url == '/echo') {
     let body = [];
-    request.on('data', chunk => {
+    request.on('data', chunk => { //chunk es un callback
       body.push(chunk);
     })  // Caundo recibe nuestros datos, hay un evento end 
       .on('end', () => {

@@ -7,4 +7,4 @@ const writableStream = new Writable({
   }
 });
 
-process.stdin.pipe(writableStream);
+process.stdin.pipe(writableStream); // process.stdin es para leer

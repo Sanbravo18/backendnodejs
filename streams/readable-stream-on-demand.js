@@ -7,7 +7,7 @@ const readableStream = new Readable({
         return;
       }
       this.push(String.fromCharCode(this.currentCharCode++));
-    }, 200)
+    }, 100)
   }
 });
 
