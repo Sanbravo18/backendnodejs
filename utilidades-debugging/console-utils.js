@@ -8,7 +8,7 @@
  * 
  * Estos son pequeños placeholders para formatear nuestros datos
  */
-// console.log("Un %s y un %s", "Perrito", "Gatito");
+console.log("Un %s y un %s", "Perrito", "Gatito");
 
 console.info("hello world");
 console.warn("hello world");

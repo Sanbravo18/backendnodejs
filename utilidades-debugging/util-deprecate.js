@@ -1,7 +1,7 @@
 const util = require("util");
 
-const helloPluto = util.deprecate(() => {
-  console.log("hello pluto");
-}, 'pluto is deprecated. It is not a planet anymore');
+const helloPluton = util.deprecate(() => {
+  console.log("hello pluton");
+}, 'pluton is deprecated. It is not a planet anymore');
 
-helloPluto();
+helloPluton();
