@@ -5,7 +5,7 @@ const { config } = require('./config/index');
 
 // Cuando hagamos un request a nuestra aplicación, nos imprima un hello world
 app.get('/', (req, res) => {
-    res.send("Hello world 1313");
+    res.send("Hello world");
   })
 
 app.get('/json', (req, res) => {
